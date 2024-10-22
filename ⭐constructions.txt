@@ -1,0 +1,31 @@
+initialize npm and -y for skiping questions
+npm init -y
+
+add "type":"module",
+change test to "start": "node ."
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "start": "node ."
+  },
+
+
+
+for auto restart and refresh changes 
+-D to install in dev dependencies
+npm i -D nodemon
+
+npm i express
+
+an enhanced version of websocket ws (npm i ws)
+npm i socket.io
+
+add the following in script json
+  "dev":"nodemon ."
+
+  to start nodemon 
+  npm run dev
+
+  
