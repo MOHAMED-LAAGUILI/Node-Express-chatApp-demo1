@@ -1,0 +1,10 @@
+frontend:
+    path: ./
+    publish: ""
+    scripts:
+        build: ""
+        deploy: 'npm i '
+    subdomain: Node-Express-chatApp-demo1
+name: Node-Express-chatApp-demo1
+region: us-east-1
+yamlVersion: 2
